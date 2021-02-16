@@ -1,6 +1,6 @@
 # MedMart: FPRT Test Solution
 
-[Live Demo link](https://git.heroku.com/medmart.git)
+[Live Demo link](https://medmart.herokuapp.com/)
 
 - Admin login credentials:
 username: admin@example.com
