@@ -1,5 +1,14 @@
 # MedMart: FPRT Test Solution
 
+[Live Demo link](https://git.heroku.com/medmart.git)
+
+- Admin login credentials:
+username: admin@example.com
+pw: 123456
+
+
+
+
 <h1 align="center"> MedMart </h1>
 
 <p align="center">
