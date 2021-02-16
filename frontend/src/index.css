@@ -1,0 +1,157 @@
+main {
+    min-height: 80vh;
+    /* background: linear-gradient(to left, #ece9e6, #ffffff); */
+    /* background: linear-gradient(to left, #000000, #434343); */
+    background: linear-gradient(to top, #ba8b02, #181818);
+    /* background-image: url("https://images.pexels.com/photos/5980/food-sunset-love-field.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+    /* background-image: url("https://images.unsplash.com/photo-1593533680961-4b5484476466?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size:1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size:1.4rem;
+    padding: 0.5rem 0;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+
+.justify-content-center {
+    font-weight: bold;
+}
+
+* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display:flex
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 15%;
+  margin-left: 53vh;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+    .carousel-caption h2 {
+      font-size: 2.5vw;
+    }
+  }
+
+.carousel {
+  /* background-color: rgb(9, 156, 9); */
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  opacity: 8;
+}
+
+.name {
+  font-size: x-large;
+}
+
+.logo-image img{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-group .card-primary:hover {
+  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+  z-index: 100;
+}
+
+.card {
+  background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-1 {
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+}
+
+.btn-1:hover {
+  background: rgb(0,3,255);
+background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+
+.btn-block {
+  background-color: #56ab2f;;
+background-image: linear-gradient(to top, #56ab2f, #a8e063);;
+  border: none;
+  z-index: 1;
+}
+
+.text-center {
+  margin-top: 0rem;
+}
+
+.pagination {
+  margin-top: 7rem;
+}
+
+.logo-image img {
+  margin-left: 1rem;
+  margin-right: 0rem;
+}
+
+
+
+
+
+
+
+
